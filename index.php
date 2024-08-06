@@ -71,7 +71,7 @@
 
                 <div class="search">
                     <i class="fa fa-search"></i>
-                    <input type="text" class="form-control" placeholder="Search Your Medicin">
+                    <input type="text" class="form-control" placeholder="Search Your Medicine">
                     <button class="button-1"><b>Search</b></button>
                 </div>
 
