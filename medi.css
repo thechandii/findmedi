@@ -21,7 +21,7 @@
 
 .search {
     position: relative;
-    box-shadow: 0 0 20px var(--c-dark);
+    box-shadow: 0 0 11px var(--c-dark);
     border-radius: 25px;
 }
 
