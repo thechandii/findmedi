@@ -3,7 +3,7 @@
   <title> FindMedi </title>
 
   <body>
-  Welcome to FindMedi!
+ <h1> Welcome to FindMedi! </h1> 
   
   </body>
 
