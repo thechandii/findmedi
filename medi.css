@@ -1,0 +1,84 @@
+/*---------color and fonts variable set----------*/
+:root {
+    --c-background: #ADBADA;
+    --c-primary: #7191E6;
+    --c-secondory: #3D52A1;
+    --c-light: #EEE8F6;
+    --c-dark: black;
+    --font-base: "poppins", sans-serif;
+}
+
+.body {
+    background-color: var(--c-background);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.height {
+    height: 100vh;
+}
+
+
+.search {
+    position: relative;
+    box-shadow: 0 0 20px var(--c-dark);
+    border-radius: 25px;
+}
+
+.search input {
+
+    height: 60px;
+    text-indent: 25px;
+    border: 2px var(--c-light);
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-bottom: 40%;
+}
+
+.search input:focus {
+
+    box-shadow: none;
+    border: 2px var(--c-secondory);
+}
+
+.search .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search .button-1 {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: var(--c-secondory);
+    color: var(--c-light);
+    border-radius: 25px;
+}
+
+.search .button-1:hover {
+    background-color: var(--c-primary);
+
+}
+.name{
+    padding-top: 10%;
+    text-align: center;   
+    font-family: var(--font-base); 
+    font-weight: bold;
+   
+}
+.footer{
+   background-color: var(--c-primary);
+}
+.footer1{
+    background-color: var(--c-secondory);
+    text-align: center;
+   font-size: 20px;
+   height: 60px;
+   padding: 20px;
+   
+ }
